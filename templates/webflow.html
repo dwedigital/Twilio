@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+	{% block content%}
+  <div class="section-3">
+    <div class="container-4 w-container"><img class="image" src="../static/images/dwe_digital_logo_standard_white.png" width="187">
+    </div>
+  </div>
+  <div class="section">
+    <div class="container-3 w-container">
+      <div class="w-row">
+        <div class="column w-col w-col-4">
+          <h2 class="heading">Send a SMS</h2>
+          <p class="paragraph">This app uses Twilio to simply send a message. The back end is built in Python using Flask.</p>
+        </div>
+        <div class="column-2 w-col w-col-8">
+          <div class="w-form">
+            <form class="form-style w-clearfix" data-name="Email Form" id="email-form" name="email-form" action="{{ url_for('send') }}" method = "post">
+              <textarea class="textarea w-input" id="field" maxlength="5000" name="message" placeholder="Message..." required="required"></textarea>
+              <label class="field-label" for="Email-2">Recipient's number:</label>
+              <input class="text-field-3 w-input" data-name="number" id="Email-2" maxlength="256" name="number" placeholder="+44.........." required="required" type="tel">
+              <input class="submit-button-2 w-button" data-wait="Please wait..." type="submit" value="SUBMIT">
+            </form>
+            <div class="w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

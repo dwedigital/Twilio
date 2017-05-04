@@ -1,0 +1,177 @@
+.body {
+  height: 100%;
+  background-color: #7f8c8d;
+}
+
+.navbar {
+  height: 10%;
+  margin-top: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+
+.container-2 {
+  position: relative;
+  right: -31px;
+  color: #ecf0f1;
+  font-size: 18px;
+}
+
+.container-2.menu {
+  color: #4f595c;
+}
+
+.nav-menu {
+  top: 10px;
+  color: #fff;
+  text-align: left;
+}
+
+.brand {
+  position: relative;
+  left: -116px;
+  display: block;
+  float: left;
+}
+
+.paragraph {
+  color: #464646;
+  font-weight: 500;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.form-style {
+  border-radius: 10px;
+}
+
+.textarea {
+  min-height: 150px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.text-field-3 {
+  min-width: 100px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  -webkit-perspective: 1197px;
+  perspective: 1197px;
+}
+
+.section {
+  height: 80%;
+  background-color: #1abc9c;
+}
+
+.container-3 {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.column {
+  padding-right: 25px;
+}
+
+.column-2 {
+  padding-left: 25px;
+}
+
+.section-2 {
+  height: 10%;
+  background-color: #51595a;
+}
+
+.submit-button-2 {
+  width: 100%;
+  margin-top: 15px;
+  float: right;
+  border-radius: 5px;
+  background-color: #2c3e50;
+  font-weight: 700;
+}
+
+.field-label {
+  margin-bottom: 15px;
+  padding-top: 15px;
+  color: #464646;
+}
+
+.field-label-2 {
+  margin-bottom: 15px;
+  color: #464646;
+}
+
+.heading {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.section-3 {
+  height: 10%;
+  padding-bottom: 15px;
+  background-color: #2c3e50;
+}
+
+.container-4 {
+  padding-top: 15px;
+}
+
+.text-block {
+  color: #fff;
+  text-align: center;
+}
+
+.row {
+  height: 10%;
+  padding-top: 15px;
+}
+
+@media (max-width: 991px) {
+  .nav-menu {
+    background-color: #34495e;
+  }
+}
+
+@media (max-width: 767px) {
+  .paragraph {
+    text-align: justify;
+  }
+  .form-style {
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  .image {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 479px) {
+  .paragraph {
+    text-align: center;
+  }
+  .form-style {
+    margin-left: 0px;
+    padding-top: 15px;
+  }
+  .section {
+    height: auto;
+  }
+  .heading {
+    text-align: center;
+  }
+  .section-3 {
+    height: auto;
+  }
+  .row {
+    height: auto;
+  }
+  .image {
+    position: static;
+    left: 0px;
+    top: 0px;
+    padding-left: 20px;
+  }
+}
